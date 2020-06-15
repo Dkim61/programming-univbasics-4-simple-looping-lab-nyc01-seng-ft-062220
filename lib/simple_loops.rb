@@ -9,4 +9,8 @@ def loop_message_five_times(string)
   end
 end
 
-def  loop_message_five_times
+def  loop_message_n_times(string, num)
+  count = 0
+  while count <= num do
+    puts string
+    count+=
